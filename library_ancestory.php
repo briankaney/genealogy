@@ -72,6 +72,13 @@
     return $fields[7];
   }
 
+  function GetBirthDateStringFromDataLine($line)
+  {
+    if($line=="") { return "?/?/?"; }
+    $fields = explode('|',$line);
+    return $fields[8];
+  }
+
   function GetDeathLocationFromDataLine($line)
   {
     if($line=="") { return ""; }
@@ -79,6 +86,39 @@
     return $fields[9];
   }
 
+  function GetDeathDateStringFromDataLine($line)
+  {
+    if($line=="") { return "?/?/?"; }
+    $fields = explode('|',$line);
+    return $fields[10];
+  }
+
+//--------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
+
+  function GetBirthYearFromDataLine($line)
+  {
+    $str = GetBirthDateStringFromDataLine($line);
+    $fields = explode('/',$str);
+    return $fields[2];
+  }	  
+		
+  function GetDeathYearFromDataLine($line)
+  {
+    $str = GetDeathDateStringFromDataLine($line);
+    $fields = explode('/',$str);
+    return $fields[2];
+  }	  
+
+  function GetBirthDeathYearStringFromDataLine($line)
+  {
+    return GetBirthYearFromDataLine($line)."-".GetDeathYearFromDataLine($line);
+  }
+
+  function GetYearsLivedDataLine($line)
+  {
+  }
+	  
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
