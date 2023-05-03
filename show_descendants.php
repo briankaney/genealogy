@@ -28,7 +28,6 @@
     exit(0);
   }
 
-  include 'library_text_columns.php';
   include 'library_ancestory.php';
 
 //--------------------------------------------------------------------------------------

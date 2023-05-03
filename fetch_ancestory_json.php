@@ -7,9 +7,6 @@
 
   $argc = count($argv);
 
-//  include 'library_text_columns.php';
-//  include 'library_ancestory.php';
-
 //--------------------------------------------------------------------------------------
 //   Read the required args and make sure the one that is the input is a file that 
 //--------------------------------------------------------------------------------------
