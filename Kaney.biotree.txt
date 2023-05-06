@@ -1,7 +1,9 @@
 ?|Catharine||F|293|0|0|26|?/?/1788|55|?/?/1869
 ?|||F|1068|0|0|?|?/?/?|?|?/?/?
 Adams|Cameron Heath||M|1423|1184|63|0|11/14/2007|?|?/?/?
+Adams|Kathryn Kay||F|818|0|0|0|02/29/1924|0|10/03/1990
 Adams|Zoe Alexandra||F|1399|1184|63|230|04/08/2004|?|?/?/?
+Amann|Howard Doermer||M|981|0|0|0|03/09/1910|?|?/?/?
 Atten|Andrew William||M|1417|1413|77|211|03/02/2007|?|?/?/?
 Atten|Cori Lee||F|1414|1413|77|211|07/13/2005|?|?/?/?
 Bahr|Jack Darren||M|1467|1406|55|95|08/22/2010|?|?/?/?
@@ -14,20 +16,73 @@ Biesemeier|Hans Heinrich||M|86|1243|0|26|03/12/1676|26|?/?/?
 Biesemeier|Hermann||M|1243|0|0|26|?/?/1650|26|?/?/?
 Biesemeier|Johann Frederick||M|82|84|85|46|09/19/1753|26|07/04/1833
 Biesemeier|Johann Heinrich||M|84|86|87|26|12/24/1706|28|02/03/1782
+Biesemeier|Phyllis Elizabeth||F|892|0|0|55|11/13/1926|55|10/17/1973
 Biesemeier|Sophia||F|7|10|11|35|11/04/1857|52|02/27/1934
+Blanton|Jessica Kathryn||F|1022|1094|819|0|01/24/1982|?|?/?/?
+Blanton|John||M|1094|0|0|0|?/?/1952|?|?/?/?
+Blanton|Justin Burke||M|1023|1094|819|0|09/27/1988|?|?/?/?
 Boeibohms|Elizabeth||F|1167|0|0|?|?/?/?|?|?/?/?
+Borger|Eleanor||F|657|0|0|0|05/22/1929|?|?/?/?
 Brakhahn|Anna Maria||F|1156|0|0|170|?/?/?|0|03/27/1842
+Breit|Faye Marie||F|894|0|0|0|08/27/1961|?|?/?/?
+Bridges|Jessie||M|909|0|0||?/?/?|?|?/?/?
 Brockmeier|Christoph||M|1220|0|0|?|?/?/?|?|?/?/?
 Brockmeier|Mary||F|19|1220|1221|8|01/27/1807|5|08/08/1882
+Brown|Aaron William||M|980|850|839|0|03/16/1987|?|?/?/?
+Brown|Brian||M|850|0|0|0|06/11/1959|?|?/?/?
+Brown|Joshua Miles||M|979|850|839|0|08/16/1984|?|?/?/?
 Bruns|Anna Maria Elisabeth||F|85|0|0|29|03/19/1730|28|05/08/1808
+Buskohl|Pamela||F|653|0|0|0|12/07/1964|?|?/?/?
+Butler|Jessica Renee||F|977|976|845|0|02/11/1986|?|?/?/?
+Butler|Kevin Richard||M|978|976|845|0|05/20/1988|?|?/?/?
+Butler|Steven||M|976|0|0|?|?/?/?|?|?/?/?
+Duitsman|Amy Elizabeth||F|972|667|664|0|05/02/1991|?|?/?/?
+Duitsman|David||M|667|0|0|0|01/10/1955|?|?/?/?
+Duitsman|Judy||F|840|0|0|0|?/?/?|?|?/?/?
+Duitsman|Sarah||F|971|667|664|0|03/21/1986|?|?/?/?
+Duitsman|Stephen||M|668|667|664|0|01/21/1980|?|?/?/?
+Dunn|Helena||F|1147|0|0|0|07/21/0000|?|?/?/?
 Dreyers|Anna Lucia Elisabeth||F|1066|0|0|120|?/?/1729|120|04/19/1811
+Easton|Maria||F|817|0|0|?|?/?/?|?|?/?/?
+Eau Claire|Kathy||F|814|0|0|?|?/?/?|?|?/?/?
 Ellerbrock|Katharine Henriette Wilhelmina||F|17|0|0|26|07/02/1794|26|12/04/1853
+Feddersen|Harro||M|887|0|0|26|07/12/1942|0|03/30/1964
 Fosha (Voshage)|Christian||M|1166|0|0|?|?/?/?|?|?/?/?
 Fosha (Voshage)|Johann Heinrick||M|1155|1166|1167|120|05/15/1770|82|06/03/1862
 Fosha|Elizabeth||F|9|1155|1156|8|03/24/1817|147|10/12/1897
+Gerwig|Benjamin||M|805|776|803|55|07/20/1897|55|09/08/1905
+Gerwig|Carol||F|826|806|824|55|01/31/1942|55|01/31/1942
+Gerwig|Charles||M|777|14|15|5|11/07/1867|55|12/17/1917
 Gerwig|Charles||M|20|0|0|26|?/?/?|26|?/?/?
+Gerwig|Cynthia Marie||F|821|810|818|55|03/03/1959|?|?/?/?
+Gerwig|Esther||F|809|804|807|55|11/13/1921|?|?/?/?
+Gerwig|Henry||M|776|14|15|5|11/12/1865|55|07/14/1961
+Gerwig|Julien Kay||F|819|810|818|55|08/30/1951|?|?/?/?
 Gerwig|Karl||M|14|20|293|185|07/04/1823|5|11/25/1901
+Gerwig|Lester||M|810|804|807|55|06/28/1923|?|?/?/?
+Gerwig|Lydia||F|778|14|15|5|09/29/1870|55|02/14/1943
+Gerwig|Mae||F|638|776|803|55|08/12/1895|55|09/15/1975
+Gerwig|Marsha Lynn||F|820|810|818|55|09/13/1954|?|?/?/?
+Gerwig|Mildred||F|808|804|807|55|02/28/1920|?|?/?/?
 Gerwig|Sarah G||F|5|14|15|5|05/18/1875|5|01/01/1950
+Gerwig|Tracy||F|831|777|830|55|?/?/1903|55|04/05/1924
+Gerwig|Verna||F|825|806|824|0|12/06/1939|?|?/?/?
+Gerwig|Walter||M|804|776|803|55|11/17/1893|55|10/20/1971
+Gerwig|Wilbur||M|806|776|803|55|01/29/1908|55|10/26/1980
+Gronewold|Andrew||M|975|836|843|0|10/02/1981|?|?/?/?
+Gronewold|Barbara||F|838|835|834|55|11/13/1950|?|?/?/?
+Gronewold|Cathleen||F|842|836|840|0|02/29/1971|?|?/?/?
+Gronewold|Elisabeth Ann||F|1240|847|1239|52|07/04/2000|?|?/?/?
+Gronewold|Megan||F|1242|847|1239|0|?/?/1996|?|?/?/?
+Gronewold|Michael William||M|847|837|844|0|09/21/1968|?|?/?/?
+Gronewold|Patricia Lynn||F|841|836|840|0|02/13/1967|?|?/?/?
+Gronewold|Ralph||M|835|0|0|0|08/15/1921|0|04/16/1983
+Gronewold|Richard||M|837|835|834|55|08/26/1945|?|?/?/?
+Gronewold|Robert Allen||M|846|837|844|0|06/07/1965|?|?/?/?
+Gronewold|Robin Ann||F|845|837|844|0|09/05/1963|?|?/?/?
+Gronewold|Ronald||M|836|835|834|55|03/02/1942|?|?/?/?
+Gronewold|Seth||M|1241|847|1239|0|?/?/1994|?|?/?/?
+Gronewold|Teresa||F|839|835|834|55|07/30/1960|?|?/?/?
 Hautops|Anna Sohia||F|1062|0|0|?|?/?/?|?|?/?/?
 Heath|Alan Jeffrey||M|50|47|23|52|03/23/1954|?|?/?/?
 Heath|Alissa Michelle||F|63|51|61|230|09/14/1976|?|?/?/?
@@ -43,37 +98,104 @@ Heath|Maria Rochelle||F|65|51|64|199|03/23/1992|?|?/?/?
 Heath|Pamela Sue||F|48|47|23|52|06/22/1952|?|?/?/?
 Heath|Pauline Kay||F|49|47|23|52|06/23/1952|?|?/?/?
 Heath|Vincent Aaron||M|62|51|61|230|12/20/1974|?|?/?/?
+Heeren|Elsie||F|803|0|0|0|01/20/1870|55|01/11/1953
+Heilman|Alan||M|897|883|896|79|01/30/1953|?|?/?/?
+Heilman|Ashley Marie||F|986|893|894|0|08/24/1984|?|?/?/?
+Heilman|Austin William||M|987|893|894|0|09/26/1987|?|?/?/?
+Heilman|Brock Allen||M|988|893|894|0|03/28/1991|?|?/?/?
+Heilman|Craig Allen||M|893|882|892|0|06/27/1959|?|?/?/?
+Heilman|David||M|898|883|896|79|07/06/1955|79|07/08/1955
+Heilman|Donald Edward||M|883|853|880|55|12/18/1925|?|?/?/?
+Heilman|Eleanor Mae||F|881|853|880|55|03/20/1923|?|?/?/?
+Heilman|Elizabeth||F|991|897|989|0|10/01/1987|?|?/?/?
+Heilman|Ernest||M|852|851|778|55|04/21/1893|55|?/?/1914
+Heilman|Esther||F|854|851|778|55|07/08/1900|0|05/08/1994
+Heilman|Rebecca Kay||F|990|897|989|0|03/29/1985|?|?/?/?
+Heilman|Robert William||M|882|853|880|55|08/22/1924|?|?/?/?
+Heilman|Samuel||M|851|0|0|0|03/27/1866|55|03/29/1943
+Heilman|William||M|853|851|778|55|07/24/1895|0|04/29/1986
 Held|Anna Chatarina||F|87|0|0|26|?/?/?|26|?/?/?
 Hickstein|Friedericke||F|15|1130|0|13|02/02/1830|5|07/07/1916
 Hickstein|Unknown||M|1130|0|0|26|?/?/?|?|?/?/?
+Johnson|Barbara||F|992|0|0|?|?/?/?|?|?/?/?
 Kaney|Adam Michael||M|38|33|36|19|01/07/1992|?|?/?/?
+Kaney|Audrey Linn||F|969|661|968|0|01/13/1992|?|?/?/?
 Kaney|Barbara Ann||F|34|1|32|52|09/15/1961|?|?/?/?
 Kaney|Brian Todd||M|33|1|32|100|10/30/1959|?|?/?/?
+Kaney|Colleen Louise||F|659|640|657|55|05/29/1954|?|?/?/?
+Kaney|Edgar F||M|637|288|630|55|09/21/1893|55|05/28/1977
 Kaney|Edwin Frederick||M|2|6|7|146|09/13/1882|52|06/22/1950
 Kaney|Elaine Alverna||F|24|2|3|52|11/19/1929|?|?/?/?
+Kaney|Elaine Beth||F|660|640|657|55|06/10/1958|?|?/?/?
 Kaney|Elizabeth Ann||F|42|43|34|21|10/02/1986|?|?/?/?
+Kaney|Glenn||M|640|637|638|55|04/20/1928|168|11/09/1998
+Kaney|Helen||F|639|637|638|55|03/30/1923|55|03/?/2008
 Kaney|Henry|Jr|M|6|8|9|5|12/25/1848|147|10/11/1888
 Kaney|Henry|Sr|M|8|0|0|8|03/09/1817|147|08/21/1899
+Kaney|Jason Michael||M|970|661|968|0|09/12/1995|?|?/?/?
+Kaney|Kari Lynn||F|1150|658|662|0|10/26/1980|?|?/?/?
+Kaney|Kimberly Ann||F|1151|658|662|0|01/09/1984|?|?/?/?
+Kaney|Laurie||F|666|641|663|55|08/31/1967|?|?/?/?
+Kaney|LuAnn Faye||F|664|641|663|55|01/05/1956|?|?/?/?
+Kaney|Lynn Frederick||M|658|640|657|0|08/19/1950|?|?/?/?
+Kaney|Marvin||M|641|637|638|55|05/06/1930|?|?/?/?
+Kaney|Marilyn Sue||F|665|641|663|55|11/03/1957|?|?/?/?
 Kaney|Matthew Shawn||M|37|33|36|19|03/21/1989|?|?/?/?
+Kaney|Merrill David||M|661|640|657|55|09/25/1961|?|?/?/?
 Kaney|Paul Eugene||M|1|2|3|52|11/10/1931|?|?/?/?
 Kaney|Phyllis Irene||F|22|2|3|52|02/06/1926|?|?/?/?
 Kaney|Sharon Lynn||F|35|1|32|16|05/01/1963|?|?/?/?
 Kaney|Virginia Eleanor||F|23|2|3|52|09/01/1928|44|01/01/1994
+Kilker|Irene||F|824|0|0|0|03/07/1908|172|01/17/1999
+Kilker|Trena||F|807|0|0|146|09/09/1894|36|11/08/1983
 Klemme|Anna Marie Elisabeth||F|1060|1065|1066|120|12/?/1755|120|03/07/1811
 Klemme|Johann Hermann||M|1065|1067|1068|120|09/12/1728|120|06/14/1789
 Klemme|Simon Heninrich||M|1067|0|0|0|02/01/1695|?|?/?/?
 Koch|Anna Maria||F|1221|0|0|?|?/?/?|?|?/?/?
+Koester|Ellen||F|989|0|0|?|?/?/?|?|?/?/?
+Koning|Lillian||F|834|832|831|55|07/25/1922|55|?/?/2010
+Koning|Velma Lucille||F|833|832|831|55|09/29/1920|55|04/05/1923
+Koning|William||M|832|0|0|0|03/12/1896|0|03/?/1993
+Lange|Violet||F|880|0|0|78|05/06/1899|55|11/22/1983
+Lawrence|Leona||F|896|0|0|0|09/21/1929|?|?/?/?
 Long|Allen Theodore||M|78|73|75|36|05/25/1980|?|?/?/?
 Long|Becky Lee||F|77|73|75|36|08/11/1978|?|?/?/?
 Long|Beverly Kay||F|74|72|24|52|02/15/1952|?|?/?/?
 Long|Keith Duane||M|73|72|24|52|04/14/1949|?|?/?/?
 Long|Kristen Maria||F|76|73|75|36|03/29/1977|?|?/?/?
+Lynch|Erin Ruth||F|995|993|903|0|10/03/1986|?|?/?/?
+Lynch|Lisa Elaine||F|996|993|903|0|10/03/1986|?|?/?/?
+Lynch|Sarah Kathleen||F|994|993|903|0|10/10/1984|?|?/?/?
+Lynch|Van||M|993|0|0|?|?/?/?|0|08/19/2005
 Maurer|Alexander Keith||M|71|69|53|55|06/30/1994|?|?/?/?
 Maurer|Jordan Marie||F|70|69|53|55|09/27/1992|?|?/?/?
+McIntosh|Debra Lynn||F|829|827|825|0|05/15/1966|?|?/?/?
+McIntosh|James||M|827|0|0|0|10/14/1938|?|?/?/?
+McIntosh|Kimberly||F|828|827|825|0|12/07/1962|?|?/?/?
+Miller|Linda||F|843|0|0|0|04/11/1946|?|?/?/?
+Moeller|Lyle||M|985|0|0|0|03/26/1969|?|?/?/?
+Moses|Rebecca||F|982|0|0|0|11/19/1968|?|?/?/?
+Neir|Ethan William||M|1392|671|666|0|09/06/2001|?|?/?/?
+Neir|Kevin||M|671|0|0|0|10/13/1966|?|?/?/?
+Neir|Zackery Edward||M|1043|671|666|0|01/25/1997|?|?/?/?
+Noltemeier|Ruth||F|900|899|854|55|03/28/1925|0|01/26/1996
+Noltemeier|William||M|899|0|0|0|12/07/1893|55|04/02/1956
 Papemeyer|Johann Christian||M|1069|0|0|121|?/?/1738|121|09/04/1809
 Papemeyer|Sophia Christina Elisabeth||F|1058|1069|1070|121|01/04/1784|82|03/15/1875
 Pollman|Sophia Henrietta||F|1070|0|0|122|?/?/1748|?|?/?/?
 Putman|Nancy Ann||F|32|0|0|52|04/25/1940|?|?/?/?
+Reisner|Adam Conrad||M|973|669|665|0|03/20/1991|?|?/?/?
+Reisner|Alexander Christian||M|974|669|665|0|08/28/1993|?|?/?/?
+Reisner|Austin Conrad||M|670|669|665|0|07/28/1988|?|?/?/?
+Reisner|George||M|669|0|0|0|10/27/1952|?|?/?/?
+Reuber|Barbara||F|903|902|900|55|04/03/1948|?|?/?/?
+Reuber|Elizabeth||F|911|904|910|0|05/28/1981|?|?/?/?
+Reuber|Jeffrey||M|904|902|900|55|09/24/1950|?|?/?/?
+Reuber|Steven||M|905|902|900|55|03/12/1953|?|?/?/?
+Reuber|Warren||M|902|0|0|114|01/13/1923|230|08/03/2009
+Riddle McIntosh|Taylor||M|1039|1038|829|0|03/19/1991|?|?/?/?
+Riddle McIntosh|Trevor||M|1040|1038|829|0|01/13/1995|?|?/?/?
+Riddle|Michael||M|1038|0|0|?|?/?/?|?|?/?/?
 Robb|Evan Michael||M|56|54|48|253|08/18/1981|?|?/?/?
 Robb|Jennifer Ann||F|55|54|48|253|03/20/1978|?|?/?/?
 Rowland|Damon Patrick||M|28|26|27|232|04/03/1978|?|?/?/?
@@ -81,18 +203,62 @@ Rowland|Danielle Brianne Elizabeth||F|31|26|27|254|11/25/1992|?|?/?/?
 Rowland|David Andrew||M|29|26|27|254|12/16/1984|?|?/?/?
 Rowland|Dennis David||M|26|25|22|52|01/08/1953|?|?/?/?
 Rowland|Donavan Stephen||M|30|26|27|254|03/01/1987|?|?/?/?
+San Gabriel|Juan||M|1415|0|0|?|?/?/?|?|?/?/?
+Schaper|Elizabeth||F|830|0|0|55|05/17/1876|55|09/27/1952
+Schreiber|Marilee||F|663|0|0|0|04/04/1932|?|?/?/?
 Schuere|Elizabeth||F|13|18|19|9|10/25/1840|147|10/23/1919
 Schuere|Henry||M|18|0|0|49|06/17/1805|5|12/11/1889
+Sellers|Linn Ann||F|968|0|0|0|04/12/1962|?|?/?/?
+Shriver|Jane||F|910|0|0|0|05/13/1949|?|?/?/?
+Smith|Mary Ann||F|885|884|881|0|06/29/1942|0|03/30/1964
+Smith|Reva Elizabeth||F|886|884|881|0|10/05/1943|?|?/?/?
+Smith|Robert||M|884|0|0|0|11/05/1916|0|12/24/1985
+Spielman|Colleen Marie||F|1148|1145|1147|0|07/17/1977|?|?/?/?
+Spielman|Gayle Lynn||F|1146|811|808|0|02/17/1949|?|?/?/?
+Spielman|Michael Edward||M|1149|1145|1147|0|02/17/1982|?|?/?/?
+Spielman|Walter||M|811|0|0|0|12/18/1921|0|09/15/1991
+Spielman|William||M|1145|811|808|0|06/19/1947|?|?/?/?
 Stabenow|Kali Kathleen||M|1398|68|52|230|02/09/2004|?|?/?/?
 Stabenow|Willow Grace||F|1236|68|52|230|07/25/2000|?|?/?/?
+Stauffer|Alan||M|645|642|639|0|02/13/1957|0|02/14/1957
+Stauffer|Andrew||M|650|643|647|0|11/30/1978|?|?/?/?
+Stauffer|Christopher||M|654|652|653|0|05/29/1982|?|?/?/?
+Stauffer|Edward||M|652|642|639|0|02/22/1959|?|?/?/?
+Stauffer|James||M|642|0|0|0|06/14/1923|0|09/?/2007
+Stauffer|Jeffrey||M|651|643|647|0|02/23/1980|?|?/?/?
+Stauffer|Jenifer||F|649|643|647|0|05/21/1977|?|?/?/?
+Stauffer|Jerrold||M|644|642|639|0|04/29/1954|?|?/?/?
+Stauffer|Kyle||M|655|652|653|0|05/11/1983|?|?/?/?
+Stauffer|Michael||M|656|652|653|0|06/19/1985|?|?/?/?
+Stauffer|Wayne||M|643|642|639|0|08/26/1950|?|?/?/?
+Stauffer|William Lewis||M|648|643|647|0|10/16/1974|?|?/?/?
+Thompson|Danielle Nicole||F|984|890|982|0|10/06/1992|?|?/?/?
+Thompson|Michael||M|849|848|838|0|07/17/1970|?|?/?/?
+Thompson|Michael||M|848|0|0|0|01/05/1948|?|?/?/?
+Thompson|Reginald||M|888|0|0|0|06/24/1940|?|?/?/?
+Thompson|Regina||F|889|888|886|0|03/20/1965|?|?/?/?
+Thompson|Rene Justine||F|891|888|886|0|07/14/1970|?|?/?/?
+Thompson|Roger Michael||M|890|888|886|0|11/21/1966|?|?/?/?
+Thompson|Ryan Reginald||M|983|890|982|0|08/12/1991|?|?/?/?
 Thyler|Anna Catherina||F|1064|0|0|?|?/?/?|?|?/?/?
+Tompkins|Wilie||F|662|0|0|0|02/26/1955|?|?/?/?
+Van DeWater|Roxann||F|844|0|0|0|06/28/1945|?|?/?/?
+VanBuskirk|Adam||M|1037|1035|828|0|04/10/1994|?|?/?/?
+VanBuskirk|Heather||F|1036|1035|828|0|02/27/1990|?|?/?/?
+VanBuskirk|Mark||M|1035|0|0|?|?/?/?|?|?/?/?
 Weber|Wilhelmine||F|83|0|0|46|?/?/1756|46|07/01/1792
 Weerda|Audrey Taylor||F|1469|81|1461|36|07/24/2011|?|?/?/?
 Weerda|Gregg Aaron||M|81|79|74|36|10/22/1981|?|?/?/?
 Weerda|James Michael||M|80|79|74|36|10/02/1978|?|?/?/?
 Weerda|Michael Benjamin||M|1468|80|1420|36|07/27/2010|?|?/?/?
+Whaples|Karl||M|816|813|814|0|08/03/1979|?|?/?/?
+Whaples|Krissa||F|815|813|814|0|06/14/1977|?|?/?/?
+Whaples|Lester Carl|Jr|M|813|812|809|0|01/09/1951|?|?/?/?
+Whaples|Lester||M|812|0|0|0|?/?/?|?|?/?/?
+Wohlford|Dolores LeMae||F|895|0|0|0|07/25/1925|196|05/24/2007
 Wilson|Carl Emerson||M|41|764|34|21|07/18/1993|?|?/?/?
 Wilson|Peter Russell||M|1093|764|34|153|10/01/1997|?|?/?/?
+Woodin|Sally||F|647|0|0|0|08/09/1955|?|?/?/?
 Zumdahl|Carl Heinrick Christian||M|1057|1059|1060|120|08/18/1786|117|05/23/1850
 Zumdahl|Celia Lillian||F|3|4|5|146|03/27/1899|52|06/23/1987
 Zumdahl|Frederick Arndt Christian||M|12|1057|1058|120|07/21/1826|5|10/14/1870
