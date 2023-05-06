@@ -7,7 +7,7 @@
 
   $argc = count($argv);
 
-  if($argc==1)
+  if($argc<3)
   {
     print "\n\nUsage:\n";
     print "  show_summary.php family_tree_file person_index\n\n";
@@ -53,13 +53,25 @@
   $str = GetNameStringFromDataLine($self)." ".$gender;
   print "\nSelf: $str\n\n";
 
+  $self_born = GetBirthDateStringFromDataLine($self);
+  $self_died = GetDeathDateStringFromDataLine($self);
+  $age = GetWholeYearsPassed($self_born,$self_died);
+
+  print "$self_born $self_died [$age]\n\n";
+
 //--------------------------------------------------------------------------------------
 
   $parents = ExtractParentDataForID($lines,$target);
   $str = GetNameStringFromDataLine($parents[0])." [".GetIDFromDataLine($parents[0])."]";
   $str = $str."   ".GetNameStringFromDataLine($parents[1])." [".GetIDFromDataLine($parents[1])."]";
-  print "\nParents: $str\n\n";
+  print "\nParents: $str\n";
  	  
+  $father_died = GetDeathDateStringFromDataLine($parents[0]);
+  $lose_father_age = GetWholeYearsPassed($self_born,$father_died);
+  $mother_died = GetDeathDateStringFromDataLine($parents[1]);
+  $lose_mother_age = GetWholeYearsPassed($self_born,$mother_died);
+  print "Age when parents deceased: $lose_father_age     $lose_mother_age\n\n";
+
 //--------------------------------------------------------------------------------------
 
   $siblings = ExtractSiblingDataForID($lines,$target,"suppress_self");

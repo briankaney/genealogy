@@ -115,8 +115,25 @@
     return GetBirthYearFromDataLine($line)."-".GetDeathYearFromDataLine($line);
   }
 
-  function GetYearsLivedDataLine($line)
+  function GetWholeYearsPassed($first,$last)
   {
+    $fields = explode('/',$first);
+    $month1 = $fields[0];
+    $day1 = $fields[1];
+    $year1 = $fields[2];
+
+    $fields = explode('/',$last);
+    $month2 = $fields[0];
+    $day2 = $fields[1];
+    $year2 = $fields[2];
+
+    if($year1=="?" || $year2=="?") { return "?"; } 
+
+    $age = $year2-$year1-1;
+    if($month2>$month1) { ++$age; }
+    if($month2==$month1 && $day2>$day1) { ++$age; }
+
+    return $age;
   }
 	  
 //--------------------------------------------------------------------------------------
