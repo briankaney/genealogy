@@ -139,6 +139,16 @@
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
+  function GetIDForFullName($full_name,$lines)
+  {
+    $line_count = count($lines);
+    for($i=0;$i<$line_count;++$i) {
+
+      if($full_name==GetNameStringFromDataLine($lines[$i])) { return GetIDFromDataLine($lines[$i]); }
+    }
+    return -1;
+  }
+	
   function ExtractSelfDataForID($lines,$person_id)
   {
     $line_count = count($lines);
@@ -205,6 +215,7 @@
     {      
       if(GetIDFromDataLine($lines[$i])==$person_id && $mode=="suppress_self") { continue; }
       if($father_id==-1 || $mother_id==-1) { continue; }
+      if($father_id==0 || $mother_id==0) { continue; }
       if($father_id==GetFatherIDFromDataLine($lines[$i]) || $mother_id==GetMotherIDFromDataLine($lines[$i]))
       {
         $sibling_data[$j] = $lines[$i];
@@ -282,7 +293,9 @@
 
 
 //--------------------------------------------------------------------------------------
+//  are any of the following in use?  older material  
 //--------------------------------------------------------------------------------------
+/*
 
   function GetFullNameCodeString($master_fields,$index)
   {
@@ -358,6 +371,7 @@
     return $children;
   }
 
+*/
 //--------------------------------------------------------------------------------------
 
 ?>

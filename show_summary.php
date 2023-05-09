@@ -47,10 +47,14 @@
 
 //--------------------------------------------------------------------------------------
 
+  if(!is_numeric($target)) { $target = GetIDForFullName($target,$lines); }
+
+//--------------------------------------------------------------------------------------
+
   $self = ExtractSelfDataForID($lines,$target);
 
   $gender = GetGenderFromDataLine($self);
-  $str = GetNameStringFromDataLine($self)." ".$gender;
+  $str = GetNameStringFromDataLine($self)." ".$gender."   [".$target."]";
   print "\nSelf: $str\n\n";
 
   $self_born = GetBirthDateStringFromDataLine($self);
@@ -129,8 +133,14 @@
   for($i=0;$i<$number_kids;++$i)
   {
     $str = "  ".GetNameStringFromDataLine($children[$i]);
-    if($gender=="M") { $str = $str."  (with ".GetMotherIDFromDataLine($children[$i]).")"; }
-    if($gender=="F") { $str = $str."  (with ".GetFatherIDFromDataLine($children[$i]).")"; }
+    $child_born = GetBirthDateStringFromDataLine($children[$i]);
+    $parent_age = GetWholeYearsPassed($self_born,$child_born);
+
+    if($gender=="M") { $str = $str."  (with ".GetMotherIDFromDataLine($children[$i]).")  ".$gender; }
+    if($gender=="F") { $str = $str."  (with ".GetFatherIDFromDataLine($children[$i]).")  ".$gender; }
+
+    $str = $str."  at age=".$parent_age."  [".GetIDFromDataLine($children[$i])."]";
+
     print "$str\n";
   }
 

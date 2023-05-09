@@ -36,13 +36,13 @@ Buskohl|Pamela||F|653|0|0|0|12/07/1964|?|?/?/?
 Butler|Jessica Renee||F|977|976|845|0|02/11/1986|?|?/?/?
 Butler|Kevin Richard||M|978|976|845|0|05/20/1988|?|?/?/?
 Butler|Steven||M|976|0|0|?|?/?/?|?|?/?/?
+Dreyers|Anna Lucia Elisabeth||F|1066|0|0|120|?/?/1729|120|04/19/1811
 Duitsman|Amy Elizabeth||F|972|667|664|0|05/02/1991|?|?/?/?
 Duitsman|David||M|667|0|0|0|01/10/1955|?|?/?/?
 Duitsman|Judy||F|840|0|0|0|?/?/?|?|?/?/?
 Duitsman|Sarah||F|971|667|664|0|03/21/1986|?|?/?/?
 Duitsman|Stephen||M|668|667|664|0|01/21/1980|?|?/?/?
 Dunn|Helena||F|1147|0|0|0|07/21/0000|?|?/?/?
-Dreyers|Anna Lucia Elisabeth||F|1066|0|0|120|?/?/1729|120|04/19/1811
 Easton|Maria||F|817|0|0|?|?/?/?|?|?/?/?
 Eau Claire|Kathy||F|814|0|0|?|?/?/?|?|?/?/?
 Ellerbrock|Katharine Henriette Wilhelmina||F|17|0|0|26|07/02/1794|26|12/04/1853
@@ -52,8 +52,8 @@ Fosha (Voshage)|Johann Heinrick||M|1155|1166|1167|120|05/15/1770|82|06/03/1862
 Fosha|Elizabeth||F|9|1155|1156|8|03/24/1817|147|10/12/1897
 Gerwig|Benjamin||M|805|776|803|55|07/20/1897|55|09/08/1905
 Gerwig|Carol||F|826|806|824|55|01/31/1942|55|01/31/1942
+Gerwig|Charles|[?]|M|20|0|0|26|?/?/?|26|?/?/?
 Gerwig|Charles||M|777|14|15|5|11/07/1867|55|12/17/1917
-Gerwig|Charles||M|20|0|0|26|?/?/?|26|?/?/?
 Gerwig|Cynthia Marie||F|821|810|818|55|03/03/1959|?|?/?/?
 Gerwig|Esther||F|809|804|807|55|11/13/1921|?|?/?/?
 Gerwig|Henry||M|776|14|15|5|11/12/1865|55|07/14/1961
@@ -138,8 +138,8 @@ Kaney|Kimberly Ann||F|1151|658|662|0|01/09/1984|?|?/?/?
 Kaney|Laurie||F|666|641|663|55|08/31/1967|?|?/?/?
 Kaney|LuAnn Faye||F|664|641|663|55|01/05/1956|?|?/?/?
 Kaney|Lynn Frederick||M|658|640|657|0|08/19/1950|?|?/?/?
-Kaney|Marvin||M|641|637|638|55|05/06/1930|?|?/?/?
 Kaney|Marilyn Sue||F|665|641|663|55|11/03/1957|?|?/?/?
+Kaney|Marvin||M|641|637|638|55|05/06/1930|?|?/?/?
 Kaney|Matthew Shawn||M|37|33|36|19|03/21/1989|?|?/?/?
 Kaney|Merrill David||M|661|640|657|55|09/25/1961|?|?/?/?
 Kaney|Paul Eugene||M|1|2|3|52|11/10/1931|?|?/?/?
@@ -233,8 +233,8 @@ Stauffer|Michael||M|656|652|653|0|06/19/1985|?|?/?/?
 Stauffer|Wayne||M|643|642|639|0|08/26/1950|?|?/?/?
 Stauffer|William Lewis||M|648|643|647|0|10/16/1974|?|?/?/?
 Thompson|Danielle Nicole||F|984|890|982|0|10/06/1992|?|?/?/?
-Thompson|Michael||M|849|848|838|0|07/17/1970|?|?/?/?
 Thompson|Michael||M|848|0|0|0|01/05/1948|?|?/?/?
+Thompson|Michael|[II]|M|849|848|838|0|07/17/1970|?|?/?/?
 Thompson|Reginald||M|888|0|0|0|06/24/1940|?|?/?/?
 Thompson|Regina||F|889|888|886|0|03/20/1965|?|?/?/?
 Thompson|Rene Justine||F|891|888|886|0|07/14/1970|?|?/?/?
@@ -255,9 +255,9 @@ Whaples|Karl||M|816|813|814|0|08/03/1979|?|?/?/?
 Whaples|Krissa||F|815|813|814|0|06/14/1977|?|?/?/?
 Whaples|Lester Carl|Jr|M|813|812|809|0|01/09/1951|?|?/?/?
 Whaples|Lester||M|812|0|0|0|?/?/?|?|?/?/?
-Wohlford|Dolores LeMae||F|895|0|0|0|07/25/1925|196|05/24/2007
 Wilson|Carl Emerson||M|41|764|34|21|07/18/1993|?|?/?/?
 Wilson|Peter Russell||M|1093|764|34|153|10/01/1997|?|?/?/?
+Wohlford|Dolores LeMae||F|895|0|0|0|07/25/1925|196|05/24/2007
 Woodin|Sally||F|647|0|0|0|08/09/1955|?|?/?/?
 Zumdahl|Carl Heinrick Christian||M|1057|1059|1060|120|08/18/1786|117|05/23/1850
 Zumdahl|Celia Lillian||F|3|4|5|146|03/27/1899|52|06/23/1987
