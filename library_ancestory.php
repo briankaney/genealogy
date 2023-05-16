@@ -136,9 +136,63 @@
     return $age;
   }
 	  
+  function GetDataLineIndexForID($lines,$person_id)
+  {
+    $line_count = count($lines);
+
+    for($i=0;$i<$line_count;++$i)
+    {
+//$id = GetIDFromDataLine($lines[$i]);
+//print "$id =?= $person_id\n";      
+      if(GetIDFromDataLine($lines[$i])==$person_id) { return $i; }
+    }
+    return -1;
+  }
+
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------
 
+  function IDIsInIDArray($id_array,$person_id)
+  {
+    $num_ids = count($id_array);
+
+    for($i=0;$i<$num_ids;++$i) {
+      if($id_array[$i]==$person_id) { return true; }
+    }
+    return false;
+  }
+
+  function AppendIDToUniqueIDArray($id_array,$person_id)
+  {
+    if(!IDIsInIDArray($id_array,$person_id)) {
+      $num_array = count($id_array);
+      $id_array[$num_array] = $person_id;
+    }
+    return $id_array;
+  }
+
+  function AppendIDsFromDataLinesToUniqueIDArray($id_array,$data_lines)
+  {
+    $num_lines = count($data_lines);
+    for($i=0;$i<$num_lines;++$i) {
+      $id_array = AppendIDToUniqueIDArray($id_array,GetIDFromDataLine($data_lines[$i]));
+    }
+    return $id_array;
+  }
+
+  function AppendIDsFromMultiGenDataLinesToUniqueIDArray($id_array,$data_lines)
+  {
+    $num_groups = count($data_lines);
+    for($g=0;$g<$num_groups;++$g) {
+      $id_array = AppendIDsFromDataLinesToUniqueIDArray($id_array,$data_lines[$g]);
+    }
+    return $id_array;
+  }
+
+//--------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
+
+//  function LookupIDFromFullNameInFileLines($lines,$full_name)  future name
   function GetIDForFullName($full_name,$lines)
   {
     $line_count = count($lines);
@@ -149,6 +203,7 @@
     return -1;
   }
 	
+//  function ExtractfDataLineForIDFromFileLines($lines,$person_id)
   function ExtractSelfDataForID($lines,$person_id)
   {
     $line_count = count($lines);
@@ -160,6 +215,7 @@
     return $self_line;
   }
 
+//  function ExtractParentArrayForIDFromFileLines($lines,$person_id)
   function ExtractParentDataForID($lines,$person_id)
   {
     $parent_data = Array();
@@ -236,7 +292,7 @@
     for($g=1;$g<=$max_depth;++$g)
     {
       $last_gen = true;
-      $ancestor_data[$g] = Array();      
+      $ancestor_data[$g] = Array();     //  creates an empty layer, what if no nore ancestors found?
       $j=0;
 
       for($i=0;$i<pow(2,$g-1);++$i)
@@ -267,7 +323,7 @@
     {
       $num_in_prior_gen = count($descendant_data[$g-1]);
       $last_gen = true;
-      $descendant_data[$g] = Array();      
+      $descendant_data[$g] = Array();        //  cretes nn empty layer if no members are found below
       $j=0;
 
       for($p=0;$p<$num_in_prior_gen;++$p)

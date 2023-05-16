@@ -7,7 +7,7 @@
 
   $argc = count($argv);
 
-  if($argc==1)
+  if($argc<4)
   {
     print "\n\nUsage:\n";
     print "  show_ancestors.php family_tree_file person_index generation_depth\n\n";
@@ -38,6 +38,12 @@
 //--------------------------------------------------------------------------------------
 
   $lines = file("$infile",FILE_IGNORE_NEW_LINES);
+
+//--------------------------------------------------------------------------------------
+
+  if(!is_numeric($target_id)) { $target_id = GetIDForFullName($target_id,$lines); }
+
+//--------------------------------------------------------------------------------------
 
   $ancestors = ExtractAncestorDataForID($lines,$target_id,$gen_depth);
 
