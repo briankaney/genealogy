@@ -142,11 +142,9 @@
 
     for($i=0;$i<$line_count;++$i)
     {
-//$id = GetIDFromDataLine($lines[$i]);
-//print "$id =?= $person_id\n";      
       if(GetIDFromDataLine($lines[$i])==$person_id) { return $i; }
     }
-    return -1;
+    return -1;    //--maybe change to 0 and make 0 be an actual data line for 'unknown'
   }
 
 //--------------------------------------------------------------------------------------
