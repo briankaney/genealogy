@@ -1,0 +1,30 @@
+The MasterList.11.txt file had 1417 lines.  I wrote a script to detect 
+people with no biological relation to any other person in the file.  That
+is, they have no parents or children listed.  There were 113 of these and 
+are found in the file MasterList.11.singles.txt.
+
+Then I started moving individuals from MasterList.11.txt to Kaney.biotree.txt. 
+This happened well before the above mentioned script was written.  I also 
+maintained a file of what was left in the MasterList file called MasterNotUsedYet.txt. 
+So the full master script is partitioned.  When the 'single' finding script was 
+run on the two partitions, the number of singles was 20 and 97.  That's a 
+total of 117, which is 4 more than the 113 in the full master file.
+
+This can happen when two people in a connection are found in different partitions.
+
+Turns out all 4 are of the same type.  They were all an isolated parent or two 
+of a spouse that married into the Kaney tree.
+
+Long|Arlyn Theodore||M|72|1462|1463|114|12/10/1927|?|?/?/? is in the Kaney tree
+
+1.)  Long|Roy C||M|1462|0|0|?|?/?/?|?|?/?/?
+2.)  Dornink|Claudia Fern||F|1463|0|0|?|?/?/?|?|?/?/?
+
+Hinsey|Peggy Lynn||F|36|1470|0|238|09/09/1958|?|?/?/? is in the Kaney tree
+
+3.)  Hinsey|||M|1470|0|0|?|?/?/?|?|?/?/?
+
+Kilker|Alinda||F|388|376|387|55|01/24/1907|0|04/19/1995 is in the Kaney tree
+
+4.)  Miller|Henrietta||F|387|0|0|?|?/?/?|?|?/?/?
+

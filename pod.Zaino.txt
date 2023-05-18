@@ -1,0 +1,29 @@
+Bennett|Mary Grace||F|1458|0|0|274|12/01/1879|259|07/21/1950
+Bordenga|Joseph Anthony||M|1450|1448|1432|205|11/13/2000|?|?/?/?
+Bordenga|Salvatore Michael||M|1448|0|0|267|08/07/1973|?|?/?/?
+Bordenga|Salvatore Michael||M|1449|1448|1432|268|11/17/1999|?|?/?/?
+Huffman|David Lee||M|1446|0|0|0|01/06/1975|?|?/?/?
+Huffman|Samantha Nicole||F|1447|1446|1432|259|06/18/1993|?|?/?/?
+Manuel|Christina Marie||F|1432|1431|1426|259|12/21/1975|?|?/?/?
+Manuel|William Stanley||M|1431|0|0|261|05/24/1955|?|?/?/?
+Pascal|Alice||F|1460|0|0|275|?/?/?|276|?/?/1967
+Ryan|Scott||M|1434|0|0|?|?/?/?|?|?/?/?
+Schmidt|Ottilia Abatlonia||F|1456|0|0|272|08/18/1883|20|06/25/1934
+Simpson|Frank Bruce||M|1428|0|0|0|05/12/1947|?|?/?/?
+Simpson|Kelli Suzanne||F|1430|1428|1425|259|09/25/1967|?|?/?/?
+Simpson|Sarah Jane||F|1429|1428|1425|259|04/06/1986|?|?/?/?
+Stenglin|Edwin Frederick||M|1451|1455|1456|269|04/17/1909|259|02/02/1970
+Stenglin|Elizabeth Susan||F|1453|1451|1452|20|11/19/1937|?|?/?/?
+Stenglin|Judith May||F|39|1451|1452|20|01/16/1933|259|11/26/2011
+Stenglin|William Pusey||M|1455|0|0|262|07/12/1874|20|05/15/1928
+Thomas|Barnett Adamson||M|1457|0|0|273|10/12/1868|20|10/?/1945
+Thomas|Thelma Dorothy||F|1452|1457|1458|20|10/07/1907|259|08/29/1968
+Yeung|Siu Yuk||F|1443|0|0|264|07/04/1962|?|?/?/?
+Zaino|Benjamin||M|1459|0|0|275|?/?/?|276|?/?/1967
+Zaino|Christopher Alan||M|1427|1424|39|260|08/11/1962|?|?/?/?
+Zaino|Janice Marie||F|1445|1427|1443|266|12/25/1996|?|?/?/?
+Zaino|Kereen Jensine||F|1444|1427|1443|259|11/17/1994|?|?/?/?
+Zaino|Michael Paul||M|1424|1459|1460|276|12/29/1927|259|04/07/2003
+Zaino|Paulette Ann||F|1426|1424|39|259|06/20/1956|?|?/?/?
+Zaino|Tyler Paul Michael||M|1441|1434|1426|259|10/23/1993|?|?/?/?
+Zaino|Victoria Susan||F|1425|1424|39|259|05/08/1955|?|?/?/?
