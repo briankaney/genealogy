@@ -1,0 +1,162 @@
+//----------------------------------------------------------------------------------------------------
+//    Partition of the master list into sections.  The Master List contained 1417 lines (1416 are real 
+//    people and there is one line for 'Unknown' with ID=0).  Using the 'find_bio_singles' util it is 
+//    found there are 113 people with no bio relationship to anyone else in the file.  They married-in 
+//    but there are no parents or children in the database.
+//
+//    
+//----------------------------------------------------------------------------------------------------
+
+Discuss partitioning of master file next....
+
+
+This next block is copy and pasted from what used to be a stand-alone file describing
+the two small 'pods' that I have pulled out so far:
+      ------------------------------
+These 'pod' files contain people with no biological connection to anyone 
+in the main Kaney tree.  They are linked by marriage only.  At this point 
+marriages have not been intgrated into my code.
+
+The pods are not ALL the people with no biological connection.  Most of 
+these are 'singles', i.e. a lone individual with no biological connection 
+to anyone other person.  These are left in the main Kaney tree and there 
+is a script to find these and a list exists elsewhere.
+
+The pods are special in that it is someone who married into the Kaney 
+family tree, but did not have any offspring with anyone in the Kaney 
+tree but did have kids with other people also unrelated to the Kaney's. 
+There are only two cases so far and these make it clear how this works.
+
+1.)  The Zaino pod is linked to the Kaney's by marriage with Paul Kaney by:
+
+Stenglin|Judith May||F|39|1451|1452|20|01/16/1933|259|11/26/2011
+
+2.)  The Gitz pod is linked to the Kaney's by marriage with Edwin M Zumdahl by:
+
+Gitz|Thelma||F|788|0|0|0|11/27/1911|239|11/19/2003
+      -------------------------------
+
+
+
+
+Another issue that used to have a separate note file for it.  Copied below 
+in it's entirety.  These are people that married-in to the Kaney line and 
+had kids within the line, so they are not biologically disjoint.  But then 
+a few of their ancestors were added.  Then they were moved from master to 
+kaney but the ancestors were not moved.  The unmoved ancestors then show up 
+as 'new' extra singles as described below:
+
+      -------------------------------
+The MasterList.11.txt file had 1417 lines.  I wrote a script to detect 
+people with no biological relation to any other person in the file.  That
+is, they have no parents or children listed.  There were 113 of these and 
+are found in the file MasterList.11.singles.txt.
+
+Then I started moving individuals from MasterList.11.txt to Kaney.biotree.txt. 
+This happened well before the above mentioned script was written.  I also 
+maintained a file of what was left in the MasterList file called MasterNotUsedYet.txt. 
+So the full master script is partitioned.  When the 'single' finding script was 
+run on the two partitions, the number of singles was 20 and 97.  That's a 
+total of 117, which is 4 more than the 113 in the full master file.
+
+This can happen when two people in a connection are found in different partitions.
+
+Turns out all 4 are of the same type.  They were all an isolated parent or two 
+of a spouse that married into the Kaney tree.
+
+Long|Arlyn Theodore||M|72|1462|1463|114|12/10/1927|?|?/?/? is in the Kaney tree
+
+1.)  Long|Roy C||M|1462|0|0|?|?/?/?|?|?/?/?
+2.)  Dornink|Claudia Fern||F|1463|0|0|?|?/?/?|?|?/?/?
+
+Hinsey|Peggy Lynn||F|36|1470|0|238|09/09/1958|?|?/?/? is in the Kaney tree
+
+3.)  Hinsey|||M|1470|0|0|?|?/?/?|?|?/?/?
+
+Kilker|Alinda||F|388|376|387|55|01/24/1907|0|04/19/1995 is in the Kaney tree
+
+4.)  Miller|Henrietta||F|387|0|0|?|?/?/?|?|?/?/?
+      -------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------
+//    Notes of Dad's physical print out of the Karl Gerwig descendent tree and how it compares 
+//    to the spreadsheet files in this directory.
+//----------------------------------------------------------------------------------------------------
+
+Page #     # of
+of dad's   people
+pdf        on page
+
+
+Pg 1      21   [Maria Easton]
+Pg 2      21   []
+Pg 3      23   []
+Pg 4      22   []
+
+//------  87   1    Henry Gerwig branch
+
+Pg 5      21   []
+Pg 6      11   []
+
+//------  32   0    Charles Gerwig branch
+
+Pg 6      9    [Harro Feddersen]]
+Pg 7      21   [Lyle Moeller, Howard Doermer Amann, Dolores LeMae Wohlford]
+Pg 8      22   [Barbara Johnson, Jessie Bridges, Juan San Gabriel]
+Pg 9      23   [Marcia Nesemeyer, Tim King]
+Pg 10     22   [Paul Nentwig]
+Pg 11     23   []    
+Pg 12     25   [Lucy Starky, Dennis Jacobs]
+Pg 13     8    []
+
+//------  153  12   Lydia Gerwig Branch
+
+Pg 13     15   []
+Pg 14     22   [Richard Craig]
+Pg 15     23   [Laura Ann Gilmour]
+Pg 16     23   []
+Pg 17     17*  [Clayton Gregory Myers, Carlos Gomez, Joel Gelpe, Charles Vane, Judith May Stenglin, Barbara Kinney]
+Pg 18     8    [Thelma Gitz, James Hooley, Mary Armagost]
+
+//------  108  11   Sarah G Gerwig Branch
+
+Grand
+Total:    380 - 24 - 8 = 358
+
+24 are folks that married into the line but had no kids with the line.  8 are only found in Dad's hard copy but not the 
+text files.  This leaves 358, which agrees with what the show_descendents_with_couples.php util produces._
+
+Pg 8 of Dad's print out has two 'Duhn' that appear nowhere in my download spreadsheets.  And they have problems (eloborate).
+Pg 13 of Dad's print out have 'Alice Pack', 'Baxter Rowland', and 'Patty Metcalf' which do not appear in my download spreadsheets.
+Pg 15 of Dad's print out has 'Piper Anne Heath' who does not appear in the spreadsheets.
+Pg 16 of Dad's print out have 'Estella Marie Weerda' and 'Luke Aron Weerda' who do not appear in the spreadsheets.
+
+* - Pg 17 of Dad's print out has two duplicate entries (Elizabeth Wilson and Clay Myers]
+
+Found two young kids with dual last names.  Listed as 'Riddle McIntosh'.  Father was a 
+Riddle and Mother was a McIntosh.  No hyphen entered.  Was McIntosh intended to be the last 
+name and Riddle is the middle name?  No other middle name listed.
+
+The two missing Duhn values are problematic
+  Joseph Duhn            born and married 2004 (maybe b:unknown, and b and m have duplicate errors as a type)
+  Kiernan Jeffrey Duhn   born 2013
+
+Patty Metcalf looks to be Dennis Rowland 2nd wife.
+
+//----------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------
+
+
+
