@@ -1,0 +1,33 @@
+This file describes the format for the files of the type *.people.txt.
+
+These files consist of pipe delimited text columns.  Every line should 
+have 9 columns.  Some sample lines are shown below:
+
+Hickstein|Unknown||M|1130|0|0|?/?/?|?/?/?
+Kaney|Adam Michael||M|38|33|36|01/07/1992|?/?/?
+Kaney|Brian Todd||M|33|1|32|10/30/1959|?/?/?
+Kaney|Edwin Frederick||M|2|6|7|09/13/1882|06/22/1950
+Klemme|Anna Marie Elisabeth||F|1060|1065|1066|12/?/1755|03/07/1811
+
+The columns are explained below. Column 1 is the last name.  Column 2 
+is the first name and any middle name or names, if known.  Either if these 
+columns could contain just '?' if unknown.  Column 3 is any name suffix 
+added to the last name, such as 'Jr' or 'II'.  The full name for the person 
+will be printed as column 2, a space, column 1, a possible space and column 3. 
+The second possible space only occurs if the column 3 string is not empty.
+
+So Kaney|Brian Todd|| will print as 'Brian Todd Kaney'.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
