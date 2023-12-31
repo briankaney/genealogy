@@ -5,7 +5,7 @@
 
   function GetLastNameFromDataLine($line)
   {
-    if($line=="") { return ""; }
+    if($line=="") { return ""; }    //--do I really want this behavior?
     $fields = explode('|',$line);
     return $fields[0];
   }
@@ -65,32 +65,32 @@
     return $fields[6];
   }
 
-  function GetBirthLocationFromDataLine($line)
-  {
-    if($line=="") { return ""; }
-    $fields = explode('|',$line);
-    return $fields[7];
-  }
+//  function GetBirthLocationFromDataLine($line)
+//  {
+//    if($line=="") { return ""; }
+//    $fields = explode('|',$line);
+//    return $fields[7];
+//  }
 
   function GetBirthDateStringFromDataLine($line)
   {
     if($line=="") { return "?/?/?"; }
     $fields = explode('|',$line);
-    return $fields[8];
+    return $fields[7];
   }
 
-  function GetDeathLocationFromDataLine($line)
-  {
-    if($line=="") { return ""; }
-    $fields = explode('|',$line);
-    return $fields[9];
-  }
+//  function GetDeathLocationFromDataLine($line)
+//  {
+//    if($line=="") { return ""; }
+//    $fields = explode('|',$line);
+//    return $fields[9];
+//  }
 
   function GetDeathDateStringFromDataLine($line)
   {
     if($line=="") { return "?/?/?"; }
     $fields = explode('|',$line);
-    return $fields[10];
+    return $fields[9];
   }
 
 //--------------------------------------------------------------------------------------
@@ -351,7 +351,7 @@
 //--------------------------------------------------------------------------------------
 /*
 
-  function GetFullNameCodeString($master_fields,$index)
+  f u n c t i o n GetFullNameCodeString($master_fields,$index)
   {
     $line_count = count($master_fields);
 
@@ -366,7 +366,7 @@
 
 //--------------------------------------------------------------------------------------
 
-  function GetPersonIndexFromPersonID($master_fields,$person_id)
+  f u n c t i o n GetPersonIndexFromPersonID($master_fields,$person_id)
   {
     $line_count = count($master_fields);
 
@@ -377,26 +377,26 @@
     return -1;
   }
 
-  function GetGenderFromPersonID($master_fields,$person_id)
+  f u n c t i o n GetGenderFromPersonID($master_fields,$person_id)
   {
     $index = GetPersonIndexFromPersonID($master_fields,$person_id);
     $gender = $master_fields[$index][5];
     return $gender;
   }
 
-  function GetFatherIndexFromPersonIndex($master_fields,$person_index)
+  f u n c t i o n GetFatherIndexFromPersonIndex($master_fields,$person_index)
   {
     if($person_index==-1) { return -1; }  
     return $master_fields[$person_index][11];
   }
 
-  function GetMotherIndexFromPersonIndex($master_fields,$person_index)
+  f u n c t i o n GetMotherIndexFromPersonIndex($master_fields,$person_index)
   {
     if($person_index==-1) { return -1; }  
     return $master_fields[$person_index][12];
   }
 
-  function GetChildrenArrayFromPersonID($master_fields,$person_id)
+  f u n c t i o n GetChildrenArrayFromPersonID($master_fields,$person_id)
   {
     $children = Array();      
     $children[0] = Array();

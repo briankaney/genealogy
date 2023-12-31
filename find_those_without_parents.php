@@ -10,17 +10,15 @@
   if($argc<2)
   {
     print "\n\nUsage:\n";
-    print "  find_bio_singles.php family_tree_file\n\n";
+    print "  find_those_without_parents.php family_tree_file\n\n";
 
     print "Examples:\n";
-    print "  ./find_bio_singles.php Kaney.people.txt\n\n";
+    print "  ./find_those_without_parents.php Kaney.people.txt\n\n";
 
     print "  This scripts reads the contents of a people file.  A people file contains pipe\n";
-    print "  delimited text columns in a specific format described in the 'FormatNotes.people.txt' file.\n";
-    print "  This scripts searches through all the person lines and finds those who have no entries\n";
-    print "  in the same file for either parents or children.  These individuals are not biologically\n";
-    print "  related to anyone else within the file.  The fact that they are included most likely means\n";
-    print "  they are a spouse of someone in the file, but the people file contains no info on marriages.\n\n";
+    print "  delimited text columns in a specific format described in the 'FormatNotes.people.txt'\n";
+    print "  file.  This script searches through all the person lines and finds those who have\n";
+    print "  a missing entry in one or both parent IDs.\n\n";
 
     exit(0);
   }
@@ -55,19 +53,9 @@
     $father_id = GetFatherIDFromDataLine($lines[$i]);
     $mother_id = GetMotherIDFromDataLine($lines[$i]);
 
-    if($mother_id==-1 && $father_id==-1) {
-      $test_id = GetIDFromDataLine($lines[$i]);
-      $had_kids = false;
-      for($j=0;$j<$num_lines;++$j)
-      {
-	if($i==$j) { continue; }
-        $test_father_id = GetFatherIDFromDataLine($lines[$j]);
-        $test_mother_id = GetMotherIDFromDataLine($lines[$j]);  
-        if($test_mother_id==$test_id || $test_father_id==$test_id) { $had_kids = true; }
-      }
-
-      if($had_kids==false) { print "$lines[$i]\n"; }
-    }	    
+    if($mother_id==-1 && $father_id>=0)  { print "no mother: $lines[$i]\n"; }
+    if($mother_id>=0 && $father_id==-1)  { print "no father: $lines[$i]\n"; }
+    if($mother_id==-1 && $father_id==-1) { print "no parent: $lines[$i]\n"; }
   }
 
 ?>
