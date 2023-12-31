@@ -1,33 +1,47 @@
 This file describes the format for the files of the type *.people.txt.
 
 These files consist of pipe delimited text columns.  Every line should 
-have 9 columns.  Some sample lines are shown below:
+have 9 columns.  Each line codes information for a distinct separate 
+person.  Some sample lines are shown below:
 
 Hickstein|Unknown||M|1130|0|0|?/?/?|?/?/?
 Kaney|Adam Michael||M|38|33|36|01/07/1992|?/?/?
 Kaney|Brian Todd||M|33|1|32|10/30/1959|?/?/?
 Kaney|Edwin Frederick||M|2|6|7|09/13/1882|06/22/1950
+Kaney|Henry|Jr|M|6|8|9|12/25/1848|10/11/1888
+Kaney|Henry|Sr|M|8|0|0|03/09/1817|08/21/1899
 Klemme|Anna Marie Elisabeth||F|1060|1065|1066|12/?/1755|03/07/1811
 
 The columns are explained below. Column 1 is the last name.  Column 2 
-is the first name and any middle name or names, if known.  Either if these 
+is the first name and any middle name or names, if known.  Either of these 
 columns could contain just '?' if unknown.  Column 3 is any name suffix 
-added to the last name, such as 'Jr' or 'II'.  The full name for the person 
-will be printed as column 2, a space, column 1, a possible space and column 3. 
-The second possible space only occurs if the column 3 string is not empty.
+added to the last name, such as 'Jr' or 'II'.  This column is empty in 
+most cases.
 
-So Kaney|Brian Todd|| will print as 'Brian Todd Kaney'.  
+The full name for the person will be printed as column 2, a space, column 
+1, a possible space and column 3.  The second possible space only occurs 
+if the column 3 string is not empty.
 
+So 'Kaney|Brian Todd||' will print as 'Brian Todd Kaney'.  
+And 'Kaney|Henry|Sr|' will print as 'Henry Kaney Sr'.
 
+Column 4 will contain either 'M' for male, 'F' for female or '?'.
 
+Column 5 will be the integer index for the individual represented by the 
+line in question.  These should be unique to each line of the file.  The 
+full names can be identical for different people, but this integer index 
+will distinguish them.
 
+Columns 6 and 7 will be the integer indexes for the father and the mother 
+(in that order) for the person represented by that file line.  These 
+integers must match the person index (column 5) for some other line in 
+the file.  Or either could be a '-1' indicating that parent is not in 
+the file 
 
-
-
-
-
-
-
-
+Columns 8 and 9 are the birth date and death date (in that order) for the 
+person represented by that file line.  These dates must be in the form 
+MM/DD/YYYY.  Although any of the three number fields can also contain a 
+single '?' if that field is unknown.  So if the date is completely 
+unknown you'll have ?/?/?.
 
 
