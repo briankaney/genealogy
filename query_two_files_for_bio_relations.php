@@ -10,17 +10,20 @@
   if($argc<2)
   {
     print "\n\nUsage:\n";
-    print "  query_two_files_bio_related.php family_tree_file\n\n";
+    print "  query_two_files_for_bio_relations.php family_tree_file1 family_tree_file2\n\n";
 
     print "Examples:\n";
-    print "  ./query_two_files_bio_related.php Kaney.biotree.txt Stenglin.pod.txt\n\n";
+    print "  ./query_two_files_for_bio_relations.php Kaney.people.txt partition.Stenglin.txt\n\n";
 
-    print "  This scripts reads the contents of two biotree files.  A biotree file contains pipe\n";
-    print "  delimited text columns in a specific format described in the 'FormatNotes.biotree.txt' file.\n";
+    print "  This scripts reads the contents of two people files.  A people file contains pipe\n";
+    print "  delimited text columns in a specific format described in the 'FormatNotes.people.txt' file.\n";
     print "  This scripts determines if anyone in file 1 is biologically related to anyone in file 2.\n";
     print "  Both files are looped through and checked against everyone in the other file.  The check\n";
-    print "  must be done in both directions since children must be found via the 'back-door', i.e. by\n";
-    print "  asking if anyone has that person as a parent.\n\n";
+    print "  must be done in both directions since children and parents are found from 'opposite'\n";
+    print "  directions.\n\n";
+    print "  Note: The code does not test for repeat individuals in the two files.  So, for instance,\n";
+    print "  if one file contains some bio singles and the other file are some of the same bio singles\n";
+    print "  this utility will fail to find an inter-relationship.\n\n";
 
     exit(0);
   }
@@ -67,14 +70,13 @@
   for($i=0;$i<$num_lines1;++$i)
   {
     $id = GetIDFromDataLine($lines1[$i]);
-    if($id==0) { continue; }
 
     for($j=0;$j<$num_lines2;++$j)
     {
       $test_father_id = GetFatherIDFromDataLine($lines2[$j]);
       $test_mother_id = GetMotherIDFromDataLine($lines2[$j]);  
 
-      if($test_mother_id==$id || $test_father_id==$id) { $files_related = true;  print "File 1: $id\n";}
+      if($test_mother_id==$id || $test_father_id==$id) { $files_related = true; }
     }
   }
 
@@ -90,7 +92,7 @@
       $test_father_id = GetFatherIDFromDataLine($lines1[$j]);
       $test_mother_id = GetMotherIDFromDataLine($lines1[$j]);  
 
-      if($test_mother_id==$id || $test_father_id==$id) { $files_related = true;  print "File 2: $id\n"; }
+      if($test_mother_id==$id || $test_father_id==$id) { $files_related = true; }
     }
   }
 
