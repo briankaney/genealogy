@@ -146,6 +146,17 @@
     }
     return -1;    //--maybe change to 0 and make 0 be an actual data line for 'unknown'
   }
+	  
+  function GetDataLineIndexForFullName($lines,$full_name)
+  {
+    $line_count = count($lines);
+
+    for($i=0;$i<$line_count;++$i)
+    {
+      if(GetNameStringFromDataLine($lines[$i])==$full_name) { return $i; }
+    }
+    return -1;    //--maybe change to 0 and make 0 be an actual data line for 'unknown'
+  }
 
 //--------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------

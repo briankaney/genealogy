@@ -36,7 +36,10 @@ Columns 6 and 7 will be the integer indexes for the father and the mother
 (in that order) for the person represented by that file line.  These 
 integers must match the person index (column 5) for some other line in 
 the file.  Or either could be a '-1' indicating that parent is not in 
-the file 
+the file.  To be clear, the parent indexes should be not be a positive 
+integer, unless that index is someone elses person index.  For instance, 
+if the father index is 2000 and there is no person with an index of 2000 
+then that would be considered a format error. 
 
 Columns 8 and 9 are the birth date and death date (in that order) for the 
 person represented by that file line.  These dates must be in the form 
