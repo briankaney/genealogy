@@ -47,6 +47,7 @@
 
   $ancestors = ExtractAncestorDataForID($lines,$target_id,$gen_depth);
 
+/*---orig  
   print "\n\n----------- Generation: 1 ----------\n";
   $str = GetNameStringFromDataLine($ancestors[0][0]);
   print "$str\n";
@@ -64,5 +65,21 @@
     }
   }
   print "-----------------------------------\n\n";
+ */
+
+  for($g=1;$g<$gen_depth;++$g)
+  {
+    $gg = $g+1;  
+    for($i=0;$i<pow(2,$g);$i=$i+2)
+    {
+      $ancestor_name = GetNameStringFromDataLine($ancestors[$g][$i]);
+      $str = $ancestors[$g][$i];
+      if($ancestor_name!="?" && $ancestor_name!="") { print "$str\n"; }
+
+      $ancestor_name = GetNameStringFromDataLine($ancestors[$g][$i+1]);
+      $str = $ancestors[$g][$i+1];
+      if($ancestor_name!="?" && $ancestor_name!="") { print "$str\n"; }
+    }
+  }
 
 ?>
